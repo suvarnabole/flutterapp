@@ -1,10 +1,12 @@
 on:
   pull_request:
     branches:
+      - Feature/Cicd_pipeline
       - main
       - master
   push:
     branches:
+      - Feature/Cicd_pipeline
       - main
       - master
       - develop
